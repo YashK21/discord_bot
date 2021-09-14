@@ -1,0 +1,27 @@
+{
+  "name": "gryffindor",
+  "version": "1.0.0",
+  "main": "bot.js",
+  "author": "yash",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "github:discordjs/opus",
+    "curl": "^0.1.4",
+    "discord.js": "^12.5.3",
+    "discord.js-commando": "github:discordjs/commando",
+    "ffmpeg-static": "^4.4.0",
+    "forever": "github:foreversd/forever",
+    "node-fetch": "^2.6.1",
+    "screen": "^0.2.10"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "scripts": {
+    "start": "node bot.js",
+    "devstart": "nodemon bot.js",
+    "forever" : "forever"
+  },
+  "keywords": [],
+  "description": ""
+}
